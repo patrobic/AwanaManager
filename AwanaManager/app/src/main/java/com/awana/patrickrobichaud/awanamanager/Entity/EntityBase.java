@@ -82,6 +82,12 @@ enum Section
     Three,
     Four
 }
+enum Module
+{
+    Attendance,
+    Sections,
+    Games
+}
 
 public abstract class EntityBase implements IEntity {
     public Integer GetDbId()
